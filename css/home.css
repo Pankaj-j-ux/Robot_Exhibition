@@ -1,0 +1,73 @@
+/** @format */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home_body {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 15px;
+}
+
+.circle {
+  /* display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  justify-content: center; */
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: orange;
+  /* border: none; */
+}
+
+.circlea {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.circlea > span {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 17px;
+  align-self: center;
+}
+
+.circle:hover {
+  height: 130px;
+  width: 130px;
+  background-color: rgb(255, 217, 0);
+}
+
+.plan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 530px;
+  width: 500px;
+  border-radius: 20px;
+  border: solid 1px gray;
+  background-image: url("../Images//floor_plan.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
+}
+
+.home_text {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px;
+}

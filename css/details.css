@@ -1,0 +1,23 @@
+/** @format */
+
+.section {
+  margin: 10px;
+  padding: 10px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.deltail_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
